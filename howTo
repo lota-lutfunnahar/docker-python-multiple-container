@@ -1,0 +1,216 @@
+docker commands 
+
+docker exec -ti redis redis-cli -h 127.0.0.1 -p 6379 -a 12345678
+94  docker images
+   95  docker run -p 8089:5000 -d tdd-python
+   96  docker build . -t tdd-python
+   97  docker run -p 8089:5000 -d tdd-python
+   98  docker ps 
+   99  docker images
+  116  docker images
+  117  docker images b6f507652425
+  118  docker rmi b6f507652425
+  119  docker rmi ubuntu
+  120  docker rmi 7b634471df18 c1b1b5a41e6a
+  121  docker rmi 7b634471df18 c1b1b5a41e6a -f
+  122  docker images 
+  125  cd docker-repo/
+  134  docker-compose build
+  135  sudo apt install docker-compose
+  136  docker-compose build 
+  137  docker-compose build
+  138  sudo docker-compose build
+  139  docker-compose build
+  140  docker-compose up
+  141  docker-compose up -d 
+  142  docker-compose exec app flask run recreate_db
+  143  docker-compose 
+  144  docker-compose exec app flask run recreate_db
+  145  docker ps
+  146  docker stop cacecc463096 53bed4ab830b
+  147  docker ps
+  148  docker ps -a
+  149  docker ps
+  150  docker-compose build 
+  151  docker-compose up -d
+  152  docker ps
+  153  docker rm cac
+  154  docker ps
+  155  docker stop cac
+  156  docker ps
+  157  docker-compose build 
+  158  docker-compose up -d
+  159  docker ps
+  160  docker stop 3f
+  161  docker stop 3fdb
+  162  docker stop cac
+  163  docker run -p 5000:5000 -d tdd-python
+  164  docker ps
+  165  docker stop 535
+  166  docker ps
+  167  docker-compose build 
+  168  docker-compose up -d
+  169  docker -s
+  170  docker ps
+  171  docker stop 3fdb73de722c cacecc463096
+  172  docker ps
+  173  docker-compose build 
+  174  docker image
+  175  docker images
+  176  docker run -p 5000:5000 -d tdd-python_app
+  177  docker-compose up -d
+  178  docker ps
+  179  docker stop 56dfac487b91 cacecc463096
+  180  docker images
+  181  docker-compose up -d
+  182  docker ps
+  183  docker images
+  184  docker ps
+  185  docker images
+  186  docker ps
+  187  docker stop cacecc463096 cacecc463096
+  188  docker stop 3fdb73de722c
+  189  docker-compose build 
+  190  docker-compose  up -d
+  191  docker ps
+  192  docker images
+  193  docker stop cacecc463096 3fdb73de722c
+  194  docker ps
+  195  docker-compose build 
+  196  docker-compose  up -d
+  197  docker ps
+  198  docker stop cacecc463096 3fdb73de722c
+  199  docker stop cacecc463096 c76e2812adf1
+  200  docker ps
+  201  docker-compose  up -d
+  202  docker ps
+  203  docker-compose exec db psql --username=postgres --dbname=testdb
+  204  docker-compose exec psql --username=postgres --dbname=testdb
+  205  docker-compose exec tdd-python_postgres_1 --username=postgres --dbname=testdb
+  206  docker ps
+  207  docker-compose exec postgres --username=postgres --dbname=testdb
+  208  docker ps
+  210  docker exec -it db psql -U postgres
+  211  docker exec -it postgres  psql -U postgres
+  212  docker ps
+  213  docker exec -it tdd-python_postgres_1  psql -U postgres
+  214  man docker
+  215  man docker run
+  222  docker ps
+  223  docker stop 6f9e61d8b380 cacecc463096
+  224  docker ps
+  225  mkdir flask-on-docker && cd flask-on-docker
+  292  docker ps
+  298  docker compose up -d db
+  299  docker-compose up -d db
+  300  docker ps
+  301  docker images 
+  302  docker rmi 75993dd36176
+  303  docker rmi 75993dd36176 -f
+  304  docker-compose up -d db
+  305  docker images 
+  306  docker rmi b6f507652425 -f
+  307  docker-compose up -d db
+  309  docker-compose up -d db
+  310  docker ps
+  311  docker compose up --build pythonapp
+  312  docker-compose up --build pythonapp
+  313  docker ps -a
+  314  docker-compose up --build pythonapp
+  315  docker ps -a
+  316  docker stop e8de829c2b73 
+  317  docker ps
+  318  docker-compose up -d db
+  319  docker ps
+  320  docker-compose up --build pythonapp
+  321  docker exec -it db psql -U postgres
+  322  docker ps
+  323  docker stop d9790f4c2ace
+  324  docker exec -it psql -U postgres
+  325  docker exec -it db psql -U postgres
+  442  git clone https://github.com/testdrivenio/flask-on-docker.git
+  443  git clone https://github.com/testdrivenio/flask-on-docker.git
+  493  docker ps 
+  494  history | grep docker
+  495  docker stop 6f9e61d8b380 cacecc463096
+  496  docker ps
+  501  git clone https://github.com/testdrivenio/flask-on-docker.git
+  502  mkdir docker-mulitple
+  503  cd docker-mulitple/
+  533  docker-compose build
+  534  docker ps
+  535  docker rm 6f9e61d8b380 cacecc463096 
+  536  docker stop  6f9e61d8b380 cacecc463096 
+  537  docker ps
+  538  docker images
+  539  docker-compose up -d
+  540  docker ps
+  541  docker ps flask-on-docker_web_1
+  542  docker compose up --build web
+  543  docker ps 
+  544  docker ps -a
+  550  docker ps
+  551  docker-compose up -d
+  552  docker ps
+  553  docker ps
+  554  docker stop 4d95818afc4c
+  555  docker-compose up -d --build 
+  561  docker-compose up -d --build 
+  562  docker ps
+  563  docker-compose exec web python manage.py create_db
+  564  docker ps
+  565  docker-compose up -d 
+  566  docker ps
+  568  docker-compose up -d 
+  569  docker ps
+  570  docker stop ca570e158178
+  571  docker-compose up -d 
+  572  docker ps
+  573  docker-compose up -d --build 
+  574  docker images
+  575  docker ps
+  576  docker ps -a
+  577  docker-compose up -d --build 
+  578  docker ps
+  579  docker-compose up -d --build 
+  580  docker ps
+  581  docker-compose exec web python manage.py create_db
+  582  docker-compose up -d --build 
+  583  docker ps
+  584  docker-compose exec web python manage.py create_db
+  586  docker ps
+  587  docker volume inspect flask-multiple_postgres_data
+  589  docker-compose up -d --build 
+  590  docker ps
+  591  docker-compose exec web python manage.py seed_db
+  592  docker-compose exec db psql --username=postgres --dbname=threatidr
+  594  docker-compose down -v
+  595  docker ps
+  596  docker-compose -f docker-compose.prod.yml up -d --build
+  597  docker ps
+  598  docker-compose -f docker-compose.prod.yml logs -f
+  599  docker-compose -f docker-compose.prod.yml down -v
+  600  docker-compose -f docker-compose.prod.yml up -d --build
+  601  docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
+  602  docker ps
+  603  docker-compose -f docker-compose.prod.yml down -v
+  604  docker images
+  605  docker-compose -f docker-compose.prod.yml up -d --build
+  606  docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
+  607  docker ps
+  608  docker-compose -f docker-compose.prod.yml up -d --build
+  609  docker ps
+  610  docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
+  611  docker-compose -f docker-compose.prod.yml down -v
+  612  docker ps
+  613  docker-compose -f docker-compose.prod.yml down -v
+  614  docker-compose -f docker-compose.prod.yml up -d --build
+  615  docker
+  616  docker ps
+  617  docker ps -a
+  618  docker-compose -f docker-compose.prod.yml logs -f
+  619  docker-compose -f docker-compose.prod.yml down -v
+  620  docker-compose -f docker-compose.prod.yml up -d --build
+  621  docker-compose -f docker-compose.prod.yml logs -f
+  622  docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
+  623  docker ps
