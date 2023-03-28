@@ -24,13 +24,13 @@
   docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
   ```
   
-# Check the logs
+### Check the logs
 
   ```shell
   docker-compose -f docker-compose.prod.yml logs -f
   ```
   
-# Build the images
+### Build the images
   ```shell
   docker-compose -f docker-compose.prod.yml up -d --build
   ```
