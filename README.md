@@ -2,6 +2,7 @@
 
 ### Most uses command 
 
+```
   1. docker ps
   2. docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
   3. docker-compose -f docker-compose.prod.yml down -v
@@ -17,6 +18,7 @@
   13. docker-compose -f docker-compose.prod.yml logs -f
   14. docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
   15. docker ps
+  ```
 
 ### Running the application 
 
