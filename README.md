@@ -3,21 +3,20 @@
 ### Most uses command 
 
 ```
-  1. docker ps
-  2. docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
-  3. docker-compose -f docker-compose.prod.yml down -v
-  4. docker ps
-  5. docker-compose -f docker-compose.prod.yml down -v
-  6. docker-compose -f docker-compose.prod.yml up -d --build
-  7. docker
-  8. docker ps
-  9. docker ps -a
-  10. docker-compose -f docker-compose.prod.yml logs -f
-  11. docker-compose -f docker-compose.prod.yml down -v
-  12. docker-compose -f docker-compose.prod.yml up -d --build
-  13. docker-compose -f docker-compose.prod.yml logs -f
-  14. docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
-  15. docker ps
+    docker ps
+    docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
+    docker-compose -f docker-compose.prod.yml down -v
+    docker ps
+    docker-compose -f docker-compose.prod.yml down -v
+    docker-compose -f docker-compose.prod.yml up -d --build
+    docker ps
+    docker ps -a
+    docker-compose -f docker-compose.prod.yml logs -f
+    docker-compose -f docker-compose.prod.yml down -v
+    docker-compose -f docker-compose.prod.yml up -d --build
+    docker-compose -f docker-compose.prod.yml logs -f
+    docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
+    docker ps
   ```
 
 ### Running the application 
