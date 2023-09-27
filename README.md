@@ -36,11 +36,11 @@
   docker-compose -f docker-compose.prod.yml up -d --build
   ```
 
-### down the images
+### Down the images
   ```shell
   docker-compose -f docker-compose.prod.yml down 
   ```
-### releated link
+### Releated link
 
 * https://testdriven.io/blog/dockerizing-flask-with-postgres-gunicorn-and-nginx/#nginx
 * https://www.tinystacks.com/blog-post/flask-crud-api-with-postgres/
