@@ -1,6 +1,6 @@
 # Docker-python-multiple-container
 
-### Most uses command 
+### Most Uses Command 
 
 ```
     docker ps
@@ -25,22 +25,22 @@
   docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
   ```
   
-### Check the logs
+### Check The Logs
 
   ```shell
   docker-compose -f docker-compose.prod.yml logs -f
   ```
   
-### Build the images
+### Build The Images
   ```shell
   docker-compose -f docker-compose.prod.yml up -d --build
   ```
 
-### Down the images
+### Down The Images
   ```shell
   docker-compose -f docker-compose.prod.yml down 
   ```
-### Releated link
+### Releated Link
 
 * https://testdriven.io/blog/dockerizing-flask-with-postgres-gunicorn-and-nginx/#nginx
 * https://www.tinystacks.com/blog-post/flask-crud-api-with-postgres/
