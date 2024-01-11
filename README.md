@@ -25,7 +25,7 @@
   docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
   ```
   
-### Check The Logs
+### Check The Logs 
 
   ```shell
   docker-compose -f docker-compose.prod.yml logs -f
