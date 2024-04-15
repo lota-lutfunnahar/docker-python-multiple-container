@@ -1,7 +1,7 @@
 docker commands  
 docker exec -ti redis redis-cli -h 127.0.0.1 -p 6379 -a 12345678 
 94  docker images
-   95  docker run -p 8089:5000 -d tdd-python 
+   95  docker run -p 8089:5000 -d tdd-python  
    96  docker build . -t tdd-python
    97  docker run -p 8089:5000 -d tdd-python 
    98  docker ps 
