@@ -12,7 +12,7 @@ docker exec -ti redis redis-cli -h 127.0.0.1 -p 6379 -a 12345678
   119  docker rmi ubuntu
   120  docker rmi 7b634471df18 c1b1b5a41e6a
   121  docker rmi 7b634471df18 c1b1b5a41e6a -f
-  122  docker images 
+  122  docker images  
   125  cd docker-repo/
   134  docker-compose build
   135  sudo apt install docker-compose
