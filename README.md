@@ -9,7 +9,7 @@
     docker ps
     docker-compose -f docker-compose.prod.yml down -v 
     docker-compose -f docker-compose.prod.yml up -d --build 
-    docker ps
+    docker ps 
     docker ps -a
     docker-compose -f docker-compose.prod.yml logs -f
     docker-compose -f docker-compose.prod.yml down -v
