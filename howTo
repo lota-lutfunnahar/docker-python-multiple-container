@@ -17,7 +17,7 @@ docker exec -ti redis redis-cli -h 127.0.0.1 -p 6379 -a 12345678
   134  docker-compose build
   135  sudo apt install docker-compose
   136  docker-compose build 
-  137  docker-compose build
+  137  docker-compose build 
   138  sudo docker-compose build
   139  docker-compose build
   140  docker-compose up
